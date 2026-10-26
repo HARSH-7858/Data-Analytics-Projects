@@ -1,0 +1,33 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Microsoft Office temporary and lock files
+~$*
+*.tmp
+*.temp
+
+# Power BI / Tableau local caches and backups
+*.pbit
+*.twb.bak
+*.tfl
+
+# Python and notebook artifacts (if analysis scripts are added later)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local environment and editor files
+.env
+.env.*
+.vscode/*
+!.vscode/settings.json
+*.code-workspace
+
+# Generated exports and local-only outputs
+exports/
+output/
+*.log
